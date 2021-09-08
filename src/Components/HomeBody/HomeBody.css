@@ -1,0 +1,52 @@
+.homeBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.homeBodyComponent{
+    margin: 10px;
+    margin-left: 20px;
+    
+}
+
+.opportinitiesText{
+    
+    /* width: 804px; */
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    color: rgba(0,0,0,1);
+}
+
+.meaningFulText{
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 102px;
+    color: rgba(1,74,250,1);
+}
+.homeBodyImage{
+    margin-right: 1vw;
+}
+
+@media screen and (max-width: 770px) {
+    .opportinitiesText{
+        font-size: 35px;
+    }
+    .meaningFulText{
+        font-size: 65px;
+    }
+
+    .homeBodyImage{
+        width: 400px;
+        height: 400px;
+    }
+  }
