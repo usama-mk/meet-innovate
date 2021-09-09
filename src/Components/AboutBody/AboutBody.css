@@ -1,0 +1,82 @@
+.aboutBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_group_image_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.about_group_image{
+    width: 1400px;
+    height: 500px;
+}
+
+.companyDefinition{
+    margin: 20px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro_desc{
+    width: 620px;
+    text-align: center;
+}
+
+.missionVision{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.mission_image{
+    width: 400px;
+    height: 400px;
+}
+
+.mission_image_wrapper{
+    /* display: flex;
+    justify-content: center; */
+    width: fit-content;
+}
+
+.mission{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.mission_desc{
+     width: 400px;
+     height: 145px;
+}
+
+.vision_image{
+    width: 400px;
+    height: 400px;
+}
+
+.vision_image_wrapper{
+    /* display: flex;
+    justify-content: center; */
+    width: fit-content;
+}
+
+.vision{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.vision_desc{
+     width: 400px;
+     height: 145px;
+}
