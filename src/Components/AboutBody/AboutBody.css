@@ -80,3 +80,31 @@
      width: 400px;
      height: 145px;
 }
+
+.talent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.talent_image_wrapper{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.talentImage{
+    width: 500px;
+    height: 500px;
+}
+
+.talent_desc_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.talent_desc{
+    width: 342px;
+}

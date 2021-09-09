@@ -3,6 +3,8 @@ import './AboutBody.css'
 import about_group from '../../assets/images/about_group.png'
 import mission_image from '../../assets/images/mission_image.png'
 import vision_image from '../../assets/images/vision_image.png'
+import talentImage from '../../assets/images/talentImage.png'
+
 
 
 
@@ -52,6 +54,21 @@ function AboutBody() {
 
                         <div className="vision_image_wrapper">
                             <img className="vision_image" src={vision_image} alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className="talent">
+                    <div className="talent_image_wrapper">
+                        <img className="talentImage" src={talentImage} alt="" />
+                    </div>
+
+                    <div className="talent_desc_wrapper">
+                        <div className="talent_text">
+                            Talent Ecosystem
+                        </div>
+                        <div className="talent_desc">
+                        When you work with us you’re not just pulling random talent, you’re receiving talent directly from our ecosystem. We focus on people development, skills verification, and talent that is actively seeking employment
                         </div>
                     </div>
                 </div>
