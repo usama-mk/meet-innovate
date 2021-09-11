@@ -117,55 +117,113 @@
 }
 
 .getInTouchText{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.getInTouchText>span{
     text-align: center;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    color: rgba(77,96,250,1);
 }
 .getForm{
     display: flex;
-    width: 100%;
+    width: 70%;
     justify-content: center;
-    /* margin: 0% auto; */
+    box-shadow: rgba(65, 50, 252, 1) 0px 8px 24px;
+    margin: 0% auto;
+    border-radius: 20px;
+    
+     
 
 }
-.getRight{
+.getLeft{
     /* background-color: blue; */
-    width: 40%;
-    padding: 20px;
+    /* width: 40%; */
+    /* padding: 20px; */
+    padding-right: 8vw;
+    padding-left: 3vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+     
 }
 
 input::placeholder{
     color: #9098A9;
 }
-  
-.inTwo> input{
-    margin-right: 10px;
-    padding: 10px;
+.getForm form{
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+.inTwo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inTwo input{
+    margin-right: 20px;
+    padding-left: 10px;
+    width: 275px;
 }
 
-.inTwo>input[type=text] {
+.inTwo input[type=text] {
     border: none;
     border-bottom: 2px solid rgba(112,112,112,0.341);
+    outline: none;
+     
   }
 
 .inFull{
-    width: 50%;
-}
-
-.inFull> input{
     width: 100%;
-    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.inFull>input[type=text] {
+.inFull input{
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.inFull input[type=text] {
     border: none;
     border-bottom: 2px solid rgba(112,112,112,0.341);
+    outline: none;
   }
+
+#First_Name{
+    width: 107px;
+    white-space: nowrap;
+    line-height: 2px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(185,185,185,1);
+}
+
+.helpText{
+    margin-bottom: 70px;
+}
 
 .getContact{
     display: flex;
     flex-direction: column;
-    background-color: burlywood;
+    background-color: #4132FC;
     width: 25%;
     padding: 20px;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     
 }
 .submitWrapper{
@@ -177,12 +235,59 @@ input::placeholder{
 .submit{
     background-color: blue;
     color: white;
+    border-radius: 20px;
+    padding: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
 .contacts{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
 }
 .socialContact{
     display: flex;
     justify-content: center;
+}
+
+.sendMessage{
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(1,74,250,1);
+}
+
+.contactInfoText{
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+.phone>div{
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.envelope{
+    display: flex;
+    flex-direction: column;
+}
+
+.envelope>svg{
+    margin: 0;
+    padding: 0%;
 }
