@@ -362,3 +362,19 @@ input::placeholder{
     color: rgba(1,74,250,1);
 }
 
+.missionVision{
+    background-image: url(../../assets/images/loop.png);
+    background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover; 
+  padding-bottom: 70px;
+}
+
+.vision_image{
+    padding-top: 80px;
+}
+
+.mission_image{
+    padding-bottom: 80px;
+}
