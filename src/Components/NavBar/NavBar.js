@@ -1,8 +1,18 @@
 import React from "react";
 import "./NavBar.css";
 import logo from "../../assets/images/logo.png";
+import { useHistory } from "react-router-dom";
 
-function NavBar() {
+
+function NavBar({home, about, jobs}) {
+  const history = useHistory()
+
+  const handleAbout=()=>{
+    history.push('/about')
+  }
+  const handleHome=()=>{
+    history.push('/')
+  }
   return (
     <div className="navBar">
       <div className="logo">
@@ -15,19 +25,39 @@ function NavBar() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            marginTop: true ? "5px" : "0px",
+            marginTop: '5px',
           }}
           className="navBarComponent"
+          onClick={handleHome}
         >
           Home
           <div>
-            <hr className="selectionLine" />
+           { home && <hr className="selectionLine" />}
           </div>
         </div>
+          
+        <div style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            marginTop: '5px',
+          }} onClick={handleAbout} className="navBarComponent">About
+           <div>
+           { about && <hr className="selectionLine" />}
+          </div>
+          </div>
+           
 
-        <div className="navBarComponent">About</div>
-
-        <div className="navBarComponent">Jobs</div>
+        <div style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            marginTop: '5px',
+          }} className="navBarComponent">Jobs 
+           <div>
+           { jobs && <hr className="selectionLine" />}
+          </div>
+          </div>
 
         <div className="navBarContactBtn">Contact Us</div>
       </div>

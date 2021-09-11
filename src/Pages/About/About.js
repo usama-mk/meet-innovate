@@ -6,7 +6,7 @@ import AboutBody from '../../Components/AboutBody/AboutBody'
 function About() {
     return (
         <div className="about">
-            <NavBar/>
+            <NavBar about={true}/>
             <AboutBody/>
             
         </div>

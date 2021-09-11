@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@font-face {
+    font-family: 'Gibson';
+    src: local('Gibson'), url(../../assets/fonts/gibson-font/Gibson-Regular.ttf) format('woff');
+     
+  }
+
 .aboutBody{
     display: flex;
     flex-direction: column;
@@ -49,8 +56,6 @@
 }
 
 .mission_image_wrapper{
-    /* display: flex;
-    justify-content: center; */
     width: fit-content;
 }
 
