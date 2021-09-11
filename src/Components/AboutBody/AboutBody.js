@@ -72,6 +72,70 @@ function AboutBody() {
                         </div>
                     </div>
                 </div>
+
+                <div className="getInTouch">
+                    <div className="getInTouchText">
+                        Get In Touch
+                    </div>
+
+                    <div className="getForm">
+                        <div className="getRight">
+                        <div className="sendMessage">
+                            Send A Message
+                        </div>
+
+                        <form action="">
+                            <div className="inTwo" >
+                            <input placeholder="First Name" type="text" name="" id="" />
+                            
+                            <input placeholder="First Name" type="text" name="" id="" />
+                            </div>
+                            
+                            <div className="inTwo">
+                            <input placeholder="First Name" type="text" name="" id="" />
+                            <input placeholder="First Name" type="text" name="" id="" />
+                            </div>
+
+                            <div className="inFull">
+                            <input placeholder="First Name" type="text" name="" id="" />
+                            </div>
+
+                            <div className="inFull">
+                            <input placeholder="First Name" type="text" name="" id="" />
+                            </div>
+
+                            <div className="submitWrapper"> 
+                                <div  className="submit">
+                                Submit
+                                </div>
+                            </div>
+                        </form>
+                        </div>
+
+                        <div className="getContact">
+                            <div className="contactInfoText">
+                                Contact Info
+                            </div>
+
+                            <div className="contacts">
+                                <div>
+                                    sadlkns
+                                </div>
+
+                                <div>
+                                    kjsandisna
+                                </div>
+
+                                <div>7898y29</div>
+                            </div>
+
+                            <div className="socialContact">
+                                social icons
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     )
