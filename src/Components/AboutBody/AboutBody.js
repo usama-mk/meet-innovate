@@ -46,9 +46,7 @@ function AboutBody() {
             <div className="vision_text">Vision</div>
 
             <div className="vision_desc">
-              To work every day to ensure that companies are doing everything
-              they can do to create a fair and equitable opportunity when
-              diverse candidates apply for a job.
+            Assisting every company in the world with committing to driving pipeline diversity and implementing practices that encourage workplace equity for all.
             </div>
 
             <div className="vision_image_wrapper">

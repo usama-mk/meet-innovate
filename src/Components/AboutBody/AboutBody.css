@@ -24,8 +24,13 @@
 }
 
 .intro_desc{
-    width: 620px;
+    width: 820px;
     text-align: center;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 23px;
+    color: rgba(40,49,90,1);
 }
 
 .missionVision{
@@ -54,8 +59,24 @@
 }
 
 .mission_desc{
-     width: 400px;
+     width: 355px;
      height: 145px;
+     line-height: 26px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(0,0,0,1);
+}
+
+.mission_text{
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(1,74,250,1);
 }
 
 .vision_image{
@@ -64,8 +85,7 @@
 }
 
 .vision_image_wrapper{
-    /* display: flex;
-    justify-content: center; */
+    
     width: fit-content;
 }
 
@@ -76,9 +96,24 @@
     align-items: center;
 }
 
+.vision_text{
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(1,74,250,1);
+}
 .vision_desc{
-     width: 400px;
-     height: 145px;
+    width: 355px;
+    height: 145px;
+    line-height: 26px;
+   text-align: left;
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: lighter;
+   font-size: 16px;
+   color: rgba(0,0,0,1);
 }
 
 .talent{
@@ -106,7 +141,7 @@
 }
 
 .talent_desc{
-    width: 342px;
+    width: 460px;
 }
 
 .getInTouch{
@@ -291,3 +326,36 @@ input::placeholder{
     margin: 0;
     padding: 0%;
 }
+
+.socialContact>img{
+    margin: 10px;
+}
+
+.talent_text{
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(77,96,250,1);
+}
+
+.talent_desc{
+    line-height: 26px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(40,49,90,1);
+}
+
+.introText{
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(1,74,250,1);
+}
+
