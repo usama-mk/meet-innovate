@@ -132,7 +132,7 @@ function AboutBody() {
                 </div>
 
                 <div className="submitWrapper">
-                  <div className="submit">Submit</div>
+                  <div className="submit pointer">Submit</div>
                 </div>
               </form>
             </div>

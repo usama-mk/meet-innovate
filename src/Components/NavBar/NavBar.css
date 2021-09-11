@@ -29,7 +29,9 @@
     object-fit: cover;
     margin-left: 3vw;
 }
-
+.pointer{
+    cursor: pointer;
+}
 .selectionLine{
   
     background-color: #0D13D7;

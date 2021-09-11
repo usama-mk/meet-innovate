@@ -59,7 +59,7 @@ function NavBar({home, about, jobs}) {
           </div>
           </div>
 
-        <div className="navBarContactBtn">Contact Us</div>
+        <div className="navBarContactBtn pointer">Contact Us</div>
       </div>
     </div>
   );
