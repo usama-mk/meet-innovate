@@ -13,6 +13,9 @@ function NavBar({home, about, jobs}) {
   const handleHome=()=>{
     history.push('/')
   }
+  const handleJobs=()=>{
+    history.push('/jobs')
+  }
   return (
     <div className="navBar">
       <div className="logo">
@@ -25,7 +28,7 @@ function NavBar({home, about, jobs}) {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            marginTop: '5px',
+            marginTop: '5px'
           }}
           className="navBarComponent"
           onClick={handleHome}
@@ -40,7 +43,7 @@ function NavBar({home, about, jobs}) {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            marginTop: '5px',
+            marginTop: '5px'
           }} onClick={handleAbout} className="navBarComponent">About
            <div>
            { about && <hr className="selectionLine" />}
@@ -52,8 +55,8 @@ function NavBar({home, about, jobs}) {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            marginTop: '5px',
-          }} className="navBarComponent">Jobs 
+            marginTop: '5px'
+          }} onClick={handleJobs} className="navBarComponent">Jobs 
            <div>
            { jobs && <hr className="selectionLine" />}
           </div>

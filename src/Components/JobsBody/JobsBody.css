@@ -1,0 +1,49 @@
+.jobsBodyWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.jobsBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.searchElements{
+    display: flex;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchButton{
+    display: flex;
+    align-items: flex-end;
+}
+
+.jobCards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pageNumbers{
+    display: flex;
+}
+
+.jobsCommunity{
+    text-align: center;
+}
+.communityDesc{
+    text-align: center;
+}
+
+.afterImageDesc{
+    text-align: center;
+}

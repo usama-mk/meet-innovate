@@ -1,7 +1,7 @@
 const selectPageReducer = (
   state = {
     home: true,
-    about: false,
+    about: false
   },
   action
 ) => {
