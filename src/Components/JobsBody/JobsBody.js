@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './JobsBody.css'
 import jobsCommunity from '../../assets/images/jobsCommunity.png'
+import JobCard from '../JobCard/JobCard'
 
 function JobsBody() {
     const[cards, setCards]= useState([{
@@ -27,19 +28,23 @@ function JobsBody() {
                                 I'm looking for
                             </div>
                             <div className="elementInput">
-                                <input type="text" name="" id="" />
+                                <input placeholder="Title, Skill or Company" type="text" name="" id="" />
                             </div>
                         </div>
 
                         <div className="element">
                             <div className="elementText">
-                                I'm looking for
+                                Where
                             </div>
                             <div className="elementInput">
-                                <input type="text" name="" id="" />
+                                <input placeholder="City, State, or Zip Code" type="text" name="" id="" />
                             </div>
                         </div>
-                        <div className="searchButton">Search</div>
+                        <div className="searchButtonWrapper">
+                            <div className="searchButton">
+                            Search
+                            </div>
+                        </div>
                        
                     </div>
                 </div>
@@ -54,11 +59,13 @@ function JobsBody() {
                 </div>
 
                 <div className="jobCards">
-                        {
+                        {/* {
                             cards.map((card, key)=>{
                                return <h5>Card: {card.title}</h5>
                             })
-                        }
+                        } */}
+
+                        <JobCard position="Director of Image" company="Fenty" address="New York, NY" days="2" />
                 </div>
 
                 <div className="pageNumbers">
@@ -83,7 +90,7 @@ function JobsBody() {
 
                     </div>
 
-                    <div className="joinSlackButton">Join On Slack</div>Button
+                    <div className="joinSlackButton">Join On Slack</div>
                 </div>
             </div>
         </div>

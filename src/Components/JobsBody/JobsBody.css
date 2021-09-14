@@ -17,15 +17,85 @@
 .searchElements{
     display: flex;
 }
+.searchText{
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(49,63,255,1);
+}
 
 .element{
     display: flex;
     flex-direction: column;
 }
 
-.searchButton{
+.elementText{
+    line-height: 47px;
+    margin-top: -10px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    color: rgba(0,0,0,1);
+}
+
+.elementInput{
+    width: 100%;
+}
+
+.elementInput> input{
+    border: lightgray 2px solid;
+    padding: 18px;
+    margin-right: 8px;
+    border-radius: 5px;
+    width: 35vw;
+}
+
+.elementInput> input::placeholder {
+    color: lightgray;
+    font-family: poppins;
+    font-size: 14px;
+  }
+
+
+.searchButtonWrapper{
     display: flex;
     align-items: flex-end;
+   
+}
+
+.searchButton{
+    background-color: rgba(49,63,255,1);
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: poppins;
+    
+}
+
+.recommendedTitle{
+    line-height: 47px;
+    margin-top: -7px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    color: rgba(0,0,0,1);
+}
+
+.recommendedSub{
+    line-height: 47px;
+    margin-top: -10px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(205,205,205,1);
 }
 
 .jobCards{
@@ -42,8 +112,49 @@
 }
 .communityDesc{
     text-align: center;
+    line-height: 55px;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 34px;
+    color: rgba(40,49,90,1);
+    max-width: 900px;
 }
 
 .afterImageDesc{
     text-align: center;
+}
+
+.communityText{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    color: rgba(49,63,255,1);
+}
+
+.jobsCommunity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.afterImageDesc{
+    line-height: 55px;
+    text-align: center;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    color: rgba(40,49,90,1);
+}
+
+.joinSlackButton{
+    font-size: 22px;
+    font-family: poppins;
+    background-color: rgba(49,63,255,1);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 60px;
+    margin-bottom: 40px;
 }
