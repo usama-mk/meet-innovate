@@ -4,7 +4,7 @@ import fire from '../../assets/images/fire.png'
 import bookmark from '../../assets/images/bookmark.png'
 import fenty from '../../assets/images/fenty.png'
 
-function JobCard({position, company, address, days}) {
+function JobCard({position, company, address, days, active}) {
     return (
         <div className="jobCard">
             <img className="bookmark" src={bookmark} alt="" />
@@ -20,8 +20,18 @@ function JobCard({position, company, address, days}) {
             </div>
 
             <div className="jobStatus">
+               {
+                   active &&
+                   <div className="activelyRecruiting" >{active}</div>
+               }
                 <hr className="hr" />
+                <div className="statusDaysWrapper">
                 <div className="statusDays">{days} days ago</div>
+                {
+                   active &&
+                   <div className="applicants" >{active}</div>
+               }
+                </div>
             </div>
         </div>
     )

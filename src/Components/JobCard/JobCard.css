@@ -12,6 +12,7 @@
 
 .jobStatus{
     margin-top: 150px;
+     
 }
 
 .bookmark{
@@ -65,7 +66,9 @@
     stroke: rgba(112,112,112,1);
     stroke-width: 1px;
 }
-
+.statusDaysWrapper{
+    display: flex;
+}
 .statusDays{
     line-height: 47px;
     margin-top: -16.5px;
@@ -75,4 +78,29 @@
     font-weight: normal;
     font-size: 14px;
     color: rgba(144,144,144,1);
+    margin-right: 25px;
+}
+
+.activelyRecruiting{
+    line-height: 47px;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(58,195,58,1);
+    margin-bottom: 0;
+    margin-top: -50px;
+}
+
+.applicants{
+
+    line-height: 47px;
+    margin-top: -15.5px;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(58,195,58,1);
 }

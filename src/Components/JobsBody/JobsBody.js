@@ -65,6 +65,8 @@ function JobsBody() {
                             })
                         } */}
 
+                        <JobCard position="Director of Image" company="Fenty" address="New York, NY" days="2" active="Actively Recruiting" />
+
                         <JobCard position="Director of Image" company="Fenty" address="New York, NY" days="2" />
                 </div>
 
