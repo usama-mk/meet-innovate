@@ -2,15 +2,14 @@ import React from 'react'
 import './JobCard.css'
 import fire from '../../assets/images/fire.png'
 import bookmark from '../../assets/images/bookmark.png'
-import fenty from '../../assets/images/fenty.png'
 
-function JobCard({position, company, address, days, active}) {
+function JobCard({position, company, address, days, active, applicants, src}) {
     return (
-        <div className="jobCard">
+        <div className="jobCard pointer">
             <img className="bookmark" src={bookmark} alt="" />
             <img className="fire" src={fire} alt="" />
             <div className="jobCardContent">
-                <img className="jobCardImage" src={fenty} alt="" />
+                <img className="jobCardImage" src={src} alt="" />
 
                 <div className="jobPosition">{position}</div>
 
@@ -26,10 +25,10 @@ function JobCard({position, company, address, days, active}) {
                }
                 <hr className="hr" />
                 <div className="statusDaysWrapper">
-                <div className="statusDays">{days} days ago</div>
+                <div className="statusDays">{days} ago</div>
                 {
-                   active &&
-                   <div className="applicants" >{active}</div>
+                   applicants &&
+                   <div className="applicants" >{applicants}</div>
                }
                 </div>
             </div>
